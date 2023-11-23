@@ -27,24 +27,32 @@ _February 2019 – November 2023 • 4 yrs 10 mos_<br>
 _December 2014 – June 2018 • 3 yrs 7 mos_<br>
 <span style="font-variant: small-caps; text-transform: lowercase;">Remote</span>
 
-Collaborated with a fully-distributed scrum team to build and maintain responsive, accessible, and performant enterprise websites, single-page applications, and interactive website components for enterprise-scale digital publishers, non-profits, entertainment, and museum clients, using modern technologies like SCSS, PostCSS, ES6 JavaScript, webpack, ReactJS, and in-browser prototyping.Helped author and implement front-end best practices, internal development tools, and documentation, including code linters, standards and style guides, and participated in peer reviews of all my production code.
+Collaborated with a fully-distributed scrum team to build and maintain responsive, accessible, and performant enterprise websites, single-page applications, and interactive website components for enterprise-scale digital publishers, non-profits, entertainment, and museum clients, using modern technologies like SCSS, PostCSS, ES6 JavaScript, webpack, ReactJS, and in-browser prototyping.
 
-### Oomph, Inc.**Front-End Developer**<br>
+Helped author and implement front-end best practices, internal development tools, and documentation, including code linters, standards and style guides, and participated in peer reviews of all my production code.
+
+### Oomph, Inc.
+**Front-End Developer**<br>
 _July 2012 – February 2014 • 1 yr 8 mos_<br>
 <span style="font-variant: small-caps; text-transform: lowercase;">Hybrid Remote & Boston, MA</span>
-Worked solo or coordinated with a small team of developers at a WordPress VIP partner. Created themes, interactive modules, and other front-end styles and components for WordPress and Drupal client sites.
+
+Worked solo or coordinated with a small team of developers at a WordPress VIP partner. Created themes, interactive modules, and other front-end styles and components for WordPress and Drupal client sites.
 
 ### eMagine Communications
 **Website Maintenance**<br>
 _March 2010 – July 2012 • 2 yrs 5 mos_<br>
-<span style="font-variant: small-caps; text-transform: lowercase;">Taunton, MA</span>Responsible for servicing client requests for website updates and custom enhancements, as well as providing support for Joomla, WordPress and our proprietary .NET CMS platforms. Client projects included custom template and layout designs and development, as well as analytics & CRM integration, content implementation, designing & deploying email campaigns, interactive site components, and mobile site development.
+<span style="font-variant: small-caps; text-transform: lowercase;">Taunton, MA</span>
 
-### Rhode Island College Graphics**Graphics Supervisor**<br>
+Responsible for servicing client requests for website updates and custom enhancements, as well as providing support for Joomla, WordPress and our proprietary .NET CMS platforms. Client projects included custom template and layout designs and development, as well as analytics & CRM integration, content implementation, designing & deploying email campaigns, interactive site components, and mobile site development.
+
+### Rhode Island College Graphics
+**Graphics Supervisor**<br>
 _May 2009 – January 2010_<br>
 **Graphic Designer**<br>
 _March 2008 – May 2009_<br>
 <span style="font-variant: small-caps; text-transform: lowercase;">Providence, RI</span>
-Provided design, advertising and marketing services for students and organizations on campus. Specializing in large format print services, logo, flyer, pamphlet, and apparel design, as well as social media and online marketing design and consulting.
+
+Provided design, advertising and marketing services for students and organizations on campus. Specializing in large format print services, logo, flyer, pamphlet, and apparel design, as well as social media and online marketing design and consulting.
 
 As supervisor, helped streamline organization, established a formal project workflow, expanded digital services, and enhanced production quality.
 
@@ -77,7 +85,10 @@ _June 2004 - March 2005_<br>
 Screen printed up to six-color apparel jobs by hand. Responsible for all production, including apparel & equipment inventory, screen preparation, printing, quality control, and packing and shipping.
 
 ## Education
-### Rhode Island College
+
+### Rhode Island College
 **Graphic Communications**<br>
 _January 2008 – January 2010_<br>
-<span style="font-variant: small-caps; text-transform: lowercase;">Providence, RI</span>Pursued a BA in Graphic Communications. Coursework included graphic design, preparing prepress files, desktop publishing, web development, current trends, and communications theory.
+<span style="font-variant: small-caps; text-transform: lowercase;">Providence, RI</span>
+
+Pursued a BA in Graphic Communications. Coursework included graphic design, preparing prepress files, desktop publishing, web development, current trends, and communications theory.

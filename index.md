@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Blog, Work, Resume, About, Contact
