@@ -1,0 +1,23 @@
+body {
+	background-color: var(--c-background);
+	color: var(--c-text);
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: calc(4 / 3);
+}
+
+a {
+	color: var(--c-link);
+	text-decoration: none;
+	transition-property: color;
+	transition: none 0.3s ease-in-out;
+
+	&:focus,
+	&:hover {
+		color: var(--c-link-hover);
+		text-decoration-thickness: var(--border-underline);
+		text-decoration-line: underline;
+		text-underline-offset: var(--size-offset);
+	}
+}

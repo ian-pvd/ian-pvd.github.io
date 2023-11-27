@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="page">
+	<h1 class="page__title">
+		{{ page.title | escape }}
+	</h1>
+
+	<div class="page__content">
+		{{ content }}
+	</div>
+
+	<a class="post-item__home-link" rel="home" href="{{ "/" | relative_url }}">
+		Back to Home
+	</a>
+</div>

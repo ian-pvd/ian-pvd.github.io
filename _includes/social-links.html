@@ -1,0 +1,5 @@
+<ul class="social-links">
+	{%- for social_link_item in site.social_links -%}
+		{%- include social-links-item.html social_link = social_link_item -%}
+	{%- endfor -%}
+</ul>

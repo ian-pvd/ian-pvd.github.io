@@ -1,0 +1,29 @@
+<header class="site-header" id="site-header">
+
+	{%- assign default_nav = site.pages | map: "path" -%}
+	{%- assign primary_nav = site.primary_nav | default: default_nav -%}
+	{%- assign primary_nav_size = site.pages | map: 'title' | join: '' | size -%}
+
+	<a class="site-header__logo-link" rel="home" href="{{ "/" | relative_url }}">
+		<img src="{{ '/assets/logo.png' | relative_url }}" alt="{{ site.title | default: 'Site' }} Logo">
+	</a>
+
+	<a class="site-header__title-link" rel="home" href="{{ "/" | relative_url }}">
+		<span class="site-header__title">{{ site.title | escape }}</span>
+	</a>
+	{%- if primary_nav_size > 0 -%}
+	<nav class="site-header__nav" id="site-header-nav">
+		<ul>
+			{%- for path in primary_nav -%}
+				{%- assign nav_item = site.pages | where: "path", path | first -%}
+				{%- if nav_item.title -%}
+				<li><a href="{{ nav_item.url | relative_url }}">{{ nav_item.title | escape }}</a></li>
+				{%- endif -%}
+			{%- endfor -%}
+		</ul>
+	</nav>
+	<div class="site-header__menu-toggle" id="site-header-menu-toggle" role="button" aria-controls="site-header__nav" aria-expanded="false">
+		&#9776;
+	</div>
+	{%- endif -%}
+</header>

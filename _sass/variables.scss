@@ -1,0 +1,59 @@
+/* Default Theme Variables */
+:root {
+	--color-heavy-metal: hsl(120, 6%, 7.5%); // #121412
+	--color-bon-jour: hsl(300, 6%, 90%); // #e7e4e7
+	--color-apple: hsl(120, 50%, 55%); // #53c653
+	--color-laurel: hsl(120, 15%, 50%); // #6c936c
+	--color-tom-thumb: hsl(120, 25%, 25%); // #305030
+
+	--c-background: var(--color-heavy-metal);
+	--c-text: var(--color-bon-jour);
+	--c-link: var(--color-laurel);
+	--c-link-hover: var(--color-apple);
+	--c-highlight: var(--color-tom-thumb);
+
+	/* TODO */
+	--size-offset: 0.1em; // define offset using ~2px for 20px font size.
+	--border-underline: 3px;
+}
+
+/* Theme Colorway Variables */
+
+[data-theme-color="light-green"] {
+
+	--color-gray-nurse: hsl(120, 6%, 92.5%); // #ebedeb
+	--color-thunder: hsl(300, 6%, 10%); // #1b181b
+	--color-spring-rain: hsl(120, 25%, 75%); // #afcfaf
+
+	--c-background: var(--color-gray-nurse);
+	--c-text: var(--color-thunder);
+	--c-link: var(--color-laurel);
+	--c-link-hover: var(--color-apple);
+	--c-highlight: var(--color-spring-rain);
+}
+
+[data-theme-color="red"] {
+	--color-cod-gray: hsl(300, 6%, 7.5%); // #141214
+	--color-gray-nurse: hsl(120, 6%, 90%); // #e4e7e4
+	--color-fuchsia-pink: hsl(300, 50%, 55%); // #c653c6
+	--color-strikemaster: hsl(300, 15%, 50%); // #936c93
+	--color-eggplant: hsl(300, 25%, 25%); // #503050
+
+	--c-background: var(--color-cod-gray);
+	--c-text: var(--color-gray-nurse);
+	--c-link: var(--color-strikemaster);
+	--c-link-hover: var(--color-fuchsia-pink);
+	--c-highlight: var(--color-eggplant);
+}
+
+[data-theme-color="light-red"] {
+	--color-fuchsia-pink: hsl(300, 50%, 45%); // #ac39ac
+	--color-lilac: hsl(300, 25%, 75%); // #cfafcf
+	--color-strikemaster: hsl(300, 15%, 50%); // #936c93
+
+	--c-background: var(--color-bon-jour);
+	--c-text: var(--color-heavy-metal);
+	--c-link: var(--color-strikemaster);
+	--c-link-hover: var(--color-fuchsia-pink);
+	--c-highlight: var(--color-lilac);
+}

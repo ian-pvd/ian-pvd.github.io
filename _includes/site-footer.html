@@ -1,0 +1,49 @@
+<footer class="site-footer" id="site-footer">
+
+	{%- assign default_utilities = site.pages | map: "path" -%}
+	{%- assign utilities_nav = site.utilities_nav | default: default_utilities -%}
+	{%- assign utilities_nav_size = site.pages | map: 'title' | join: '' | size -%}
+
+	<div class="site-footer__columns">
+
+		<div class="site-footer__col">
+			<h2>About</h2>
+			<p>{{ site.description | escape }}</p>
+		</div>
+		<div class="site-footer__col">
+			<h2>Contact</h2>
+			{%- if site.author %}
+			<ul class="site-footer__contact-list">
+				{% if site.author.name -%}
+				<li class="site-footer__author-name">{{ site.author.name | escape }}</li>
+				{% endif -%}
+				{% if site.author.email -%}
+				<li><a class="site-footer__author_email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+				{%- endif %}
+			</ul>
+			{%- endif %}
+		</div>
+
+		{%- if utilities_nav_size > 0 -%}
+		<div class="site-footer__col">
+			<nav class="site-footer__nav site-footer__col" id="site-footer-nav">
+				<ul>
+					{%- for path in utilities_nav -%}
+						{%- assign utilities_item = site.pages | where: "path", path | first -%}
+						{%- if utilities_item.title -%}
+						<li><a href="{{ utilities_item.url | relative_url }}">{{ utilities_item.title | escape }}</a>
+						{%- endif -%}
+					{%- endfor -%}
+				</ul>
+			</nav>
+		</div>
+		{%- endif -%}
+	</div>
+
+	<div class="site-footer__bottom">
+		<nav class="site-footer__social-links" id="site-footer-social-link">
+			{%- include social-links.html -%}
+		</nav>
+		<p class="site-footer__copyright">&copy; {{ site.title | escape }} {{ site.time | date: '%Y' }}</p>
+	</div>
+</footer>

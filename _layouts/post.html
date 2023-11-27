@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="article" role="article">
+	<div class="article__post-meta">
+		<span class="article__post-date" aria-label="Post Date">{{ page.date | date: date_format }}</span>
+		{%- if page.category -%}
+		<span class="article__post-category" aria-label="Post Date">{{ page.category }}</span>
+		{%- endif -%}
+	</div>
+
+	<h1 class="article__title">
+		{{ page.title | escape }}
+	</h1>
+
+	<div class="article__content">
+		{{ content }}
+	</div>
+
+	<a class="article__home-link" rel="home" href="{{ "/" | relative_url }}">
+		Back to Home
+	</a>
+</article>
