@@ -1,5 +1,12 @@
-<ul class="social-links">
-	{%- for social_link_item in site.social_links -%}
-		{%- include social-links-item.html social_link = social_link_item -%}
-	{%- endfor -%}
-</ul>
+<div class="social-links">
+
+	<button class="social-links__toggle" id="social-links-toggle" aria-controls="social-links-menu" aria-expanded="true">
+		<img class="social-links__avatar" alt="Profile Picture" src="{{ site.avatar_url | default: '/assets/avatar.png' | relative_url }}" />
+	</button>
+
+	<ul class="social-links__menu" id="social-links-menu">
+		{%- for social_link_item in site.social_links -%}
+			{%- include social-link-item.html social_link = social_link_item -%}
+		{%- endfor -%}
+	</ul>
+</div>

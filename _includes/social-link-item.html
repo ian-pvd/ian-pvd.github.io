@@ -1,0 +1,6 @@
+<li class="social-link-item">
+	{% assign social_link = include.social_link %}
+	<a class="social-link-item__link" href="{{ social_link.user_url }}" title="{{ social_link.title | default: social_link.platform }}" target="_blank" rel="noopener nofollow">
+		{%- include social-icons/{{ social_link.platform }}.svg -%}
+	</a>
+</li>

@@ -1,10 +1,4 @@
 <article class="post-item" role="article">
-	<div class="post-item__post-meta">
-		<span class="post-item__post-date" aria-label="Post Date">{{ post.date | date: date_format }}</span>
-		{%- if post.category -%}
-		<span class="post-item__post-category" aria-label="Post Date">{{ post.category }}</span>
-		{%- endif -%}
-	</div>
 
 	<h3 class="post-item__title">
 		<a class="post-item__link" href="{{ post.url | relative_url }}">
@@ -12,9 +6,7 @@
 		</a>
 	</h3>
 
-	{%- if site.show_excerpts -%}
-	<div class="post-item__excerpt">
-		{{ post.excerpt }}
+	<div class="post-item__meta">
+		<span class="post-item__date" aria-label="Post Date">{{ post.date | date: date_format }}</span>
 	</div>
-	{%- endif -%}
 </article>

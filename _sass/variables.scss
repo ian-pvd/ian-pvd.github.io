@@ -1,24 +1,64 @@
-/* Default Theme Variables */
+/**
+ * Theme Variables
+ */
 :root {
+	/* Colors */
+	--color-black: #000; // #000000
+	--color-log-cabin: hsl(120, 3%, 4%); // #0a0b0a
 	--color-heavy-metal: hsl(120, 6%, 7.5%); // #121412
-	--color-bon-jour: hsl(300, 6%, 90%); // #e7e4e7
+	--color-tom-thumb: hsl(120, 25%, 25%); // #305030
+	--color-tundora: hsl(300, 3%, 25%); // #423e42
 	--color-apple: hsl(120, 50%, 55%); // #53c653
 	--color-laurel: hsl(120, 15%, 50%); // #6c936c
-	--color-tom-thumb: hsl(120, 25%, 25%); // #305030
+	--color-xanadu: hsl(120, 2%, 50%); // #7d827d
+	--color-bon-jour: hsl(300, 3%, 90%); // #e7e4e7
 
+	/* Color contexts */
 	--c-background: var(--color-heavy-metal);
+	--c-site-header: var(--color-log-cabin);
 	--c-text: var(--color-bon-jour);
 	--c-link: var(--color-laurel);
 	--c-link-hover: var(--color-apple);
 	--c-highlight: var(--color-tom-thumb);
 
-	/* TODO */
-	--size-offset: 0.1em; // define offset using ~2px for 20px font size.
-	--border-underline: 3px;
+	/* Font Sizes */
+	--fs-xxsmall: 0.875rem; // 14px
+	--fs-xsmall: 1rem; // 16px
+	--fs-small: 1.125rem; // 18px
+	--fs-medium: 1.25rem; // 20px
+	--fs-large: 1.375rem; // 22px
+	--fs-xlarge: 1.5rem; // 24px
+	--fs-xxlarge: 2rem; // 32px
+
+	/* Spacing Values */
+	--space-xxsmall: 0.25rem; // 4px
+	--space-xsmall: 0.5rem; // 8px
+	--space-small: 0.75rem; // 12px
+	--space-medium: 1.5rem; // 24px
+	--space-large: 3rem; // 48px
+	--space-xlarge: 4.5rem; // 72px
+	--space-xxlarge: 6rem; // 96px
+
+	/* Borders */
+	--border-hr:  4px solid var(--color-black);
+	--border-layout: 2px solid var(--color-tundora);
+	--border-line: 2px solid var(--c-text);
+	--border-ui: 1px solid var(--color-xanadu);
+
+	/* TODO: Organize the other variables. */
+	--mw-site-layout: calc(54rem + var(--space-large)); // 54rem + 3rem (half site footer padding)
+	--size-logo-desktop: 3rem; // 48px
+	--size-offset: 0.075em;
+	--size-site-header: 5.25rem; // 82px + 2px border-layout.
+	--underline-thickness: 0.1em;
+	--viewport-width: 100vw; // Updated for scrollbar via setViewportWidth() JS.
 }
 
-/* Theme Colorway Variables */
+/**
+ * Theme Colorway Variables
+ */
 
+/* Light Green */
 [data-theme-color="light-green"] {
 
 	--color-gray-nurse: hsl(120, 6%, 92.5%); // #ebedeb
@@ -32,6 +72,7 @@
 	--c-highlight: var(--color-spring-rain);
 }
 
+/* Dark Red */
 [data-theme-color="red"] {
 	--color-cod-gray: hsl(300, 6%, 7.5%); // #141214
 	--color-gray-nurse: hsl(120, 6%, 90%); // #e4e7e4
@@ -46,6 +87,7 @@
 	--c-highlight: var(--color-eggplant);
 }
 
+/* Light Red */
 [data-theme-color="light-red"] {
 	--color-fuchsia-pink: hsl(300, 50%, 45%); // #ac39ac
 	--color-lilac: hsl(300, 25%, 75%); // #cfafcf

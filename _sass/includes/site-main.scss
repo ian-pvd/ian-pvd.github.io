@@ -1,0 +1,13 @@
+.site-main {
+	display: block;
+	font-size: clamp(var(--fs-medium), 2vw, var(--fs-large));
+	font-weight: 400;
+	line-height: calc(4 / 3);
+	margin: 0 0 var(--space-large);
+	width: var(--viewport-width);
+}
+
+.site-main__wrapper {
+	@include wrapper;
+	padding-top: var(--space-large);
+}

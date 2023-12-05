@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en" }}" data-reduce-motion="{{ site.reduce_motion | default: false | jsonify }}" data-theme-color="{{ site.theme_color | default: 'dark-green' }}">
 
-<link rel="stylesheet" href="{{ " /assets/css/style.css" }}">
-
 {%- include head.html -%}
 
-<body>
+<body data-nav-hidden="true" class="site" id="site">
 
-	<div class="site" id="site">
+	{%- include site-header.html -%}
 
-		{%- include site-header.html -%}
+	{%- include site-main.html -%}
 
-		{%- include site-main.html -%}
+	{%- include site-footer.html -%}
 
-		{%- include site-footer.html -%}
-
-	</div>
-
-	<script src="{{ site.baseurl }}/assets/js/script.js" defer></script>
+	<script src="{{ site.baseurl }}/assets/js/script.js" type="module" defer></script>
 
 </body>
 

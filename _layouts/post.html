@@ -3,22 +3,42 @@ layout: default
 ---
 
 <article class="article" role="article">
-	<div class="article__post-meta">
-		<span class="article__post-date" aria-label="Post Date">{{ page.date | date: date_format }}</span>
-		{%- if page.category -%}
-		<span class="article__post-category" aria-label="Post Date">{{ page.category }}</span>
-		{%- endif -%}
-	</div>
 
-	<h1 class="article__title">
-		{{ page.title | escape }}
-	</h1>
+	{%- if page.image -%}
+	<figure class="article__featured-image">
+		<img class="article__image" src="/assets/images/posts/{{ page.image }}" alt="{{ page.title | escape }}">
+	</figure>
+	{%- endif -%}
+
+	<header class="article__header">
+		<h1 class="article__title">
+			{{ page.title | escape }}
+		</h1>
+		<div class="article__meta">
+			<span class="article__date" aria-label="Post Date">{{ page.date | date: "%h %e, %Y" }}</span>
+			{%- if page.topic -%}
+			<span class="article__topic" aria-label="Post Date">{{ page.topic }}</span>
+			{%- endif -%}
+		</div>
+	</header>
 
 	<div class="article__content">
 		{{ content }}
 	</div>
 
-	<a class="article__home-link" rel="home" href="{{ "/" | relative_url }}">
-		Back to Home
-	</a>
+	<footer class="article__footer">
+		<nav class="article__footer-links">
+
+			{% assign twitterHandle = site.twitter %}
+			{% assign pageTitle = page.title %}
+			{% assign pageUrl = page.url | absolute_url %}
+			{% assign tweetText = "@" | append: twitterHandle %}
+
+			<a class="article__footer-link" rel="home" href="{{ "/" | relative_url }}">Home</a>
+			<a class="article__footer-link" rel="home" href="{{ "/posts/" | relative_url }}">Posts</a>
+			<a class="article__footer-link"
+				href="http://twitter.com/share?text={{ tweetText | cgi_escape }}&url={{ pageUrl }}" target="_blank"
+				rel="noopener nofollow">Reply</a>
+		</nav>
+	</footer>
 </article>
