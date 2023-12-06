@@ -9,6 +9,8 @@ layout: default
 	<section class="blog__posts" id="blog-posts">
 		<h2 class="blog__posts-title">Posts</h2>
 
+		<div class="blog__content">{{ content }}</div>
+
 		{% assign posts = site.posts %}
 
 		{%- if posts.size > 0 -%}
