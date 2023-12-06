@@ -79,3 +79,9 @@
 .home__footer-links {
 	@include footer-links;
 }
+
+/* Hide Posts */
+.home__posts,
+.home__footer {
+	display: none;
+}
