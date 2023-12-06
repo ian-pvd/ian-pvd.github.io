@@ -1,0 +1,12 @@
+<article class="post-item" role="article">
+
+	<h3 class="post-item__title">
+		<a class="post-item__link" href="{{ post.url | relative_url }}">
+			{{ post.title | escape }}
+		</a>
+	</h3>
+
+	<div class="post-item__meta">
+		<span class="post-item__date" aria-label="Post Date">{{ post.date | date: date_format }}</span>
+	</div>
+</article>

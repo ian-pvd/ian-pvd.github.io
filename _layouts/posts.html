@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="blog">
+
+	<h1 class="blog__title">{{ page.title | escape }}</h1>
+
+	<section class="blog__posts" id="blog-posts">
+		<h2 class="blog__posts-title">Posts</h2>
+
+		{% assign posts = site.posts %}
+
+		{%- if posts.size > 0 -%}
+		<ul class="blog__post-list">
+			{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+			{%- for post in posts -%}
+			<li class="blog__post-item">
+				{%- include post-item.html -%}
+			</li>
+			{%- endfor -%}
+		</ul>
+
+		{%- else -%}
+		<span> No posts to display. </span>
+		{%- endif -%}
+
+	</section>
+
+	<footer class="article__footer">
+		<nav class="article__footer-links">
+			<a class="article__footer-link" rel="home" href="{{ "/" | relative_url }}">Home</a>
+		</nav>
+	</footer>
+</div>

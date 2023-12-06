@@ -1,0 +1,17 @@
+/* Define prefers-reduced-motion styles */
+@mixin prefers-reduced-motion {
+
+	* {
+		animation: none !important;
+		transition: none !important;
+	}
+}
+
+/* Apply prefers-reduced-motion styles */
+[data-reduce-motion="true"] {
+	@include prefers-reduced-motion;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	@include prefers-reduced-motion;
+}

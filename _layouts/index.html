@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+
+	<div class="home__wrapper">
+		{%- if page.title -%}
+		<h1 class="home__title">{{ page.title | escape }}</h1>
+		{%- endif -%}
+
+		<div class="home__content">
+			{{ content }}
+		</div>
+	</div>
+
+	<section class="home__posts" id="home-posts">
+		<h2 class="home__posts-title">Latest Posts</h2>
+
+		{% assign posts = site.posts | slice: 0, 3 %}
+
+		{%- if posts.size > 0 -%}
+		<ul class="home__post-list">
+			{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+			{%- for post in posts -%}
+			<li class="home__post-item">
+				{%- include post-item.html -%}
+			</li>
+			{%- endfor -%}
+		</ul>
+
+		{%- else -%}
+		<span> No posts to display. </span>
+		{%- endif -%}
+
+	</section>
+
+	<footer class="home__footer">
+		<nav class="home__footer-links">
+			<a class="home__footer-link" href="{{ "/posts/" | relative_url }}">Read More</a>
+		</nav>
+	</footer>
+</div>

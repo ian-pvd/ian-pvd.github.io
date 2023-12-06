@@ -1,0 +1,77 @@
+title: ian-pvd
+repo: https://github.com/ian-pvd/ian-pvd.github.io
+# license: https://github.com/ian-pvd/ian-pvd.github.io/blob/main/LICENSE.txt
+author:
+  name: ian-pvd
+  email: ian.pvd@gmail.com
+twitter: ian_pvd
+
+# Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "home"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "posts"
+
+# Theme config
+theme_color: dark-green # possible values: dark-green light-green dark-red light-red, default: dark-green
+reduce_motion: false # possible values: true false, default: false
+show_excerpts: false # possible values: true false, default: false
+logo_url: '/assets/images/pvd-logo.svg' # logo url, default: /assets/logo.svg
+avatar_url: '/assets/images/avatar.jpg' # avatar url, default: /assets/avatar.png
+
+# Theme settings
+
+description: >
+  I'm Ian, a full stack web developer
+about: >
+  I’m a Brooklyn based full-stack web developer. Workinging professionally since 2009, I have 11 years experience working with WordPress VIP partner agencies.
+
+# To enable Google Analytics, add your tracking ID here.
+# google_analytics: UA-NNNNNNNN-N
+
+# Add pages to the site-header primary navigation in this order.
+primary_nav:
+  - resume.md
+  - portfolio.md
+  # - posts.md
+  - about.md
+
+# Add pages to the site-footer utilities navigation in this order.
+utilities_nav:
+  - resume.md
+  - portfolio.md
+  # - posts.md
+  - contact.md
+  - about.md
+
+# Social media links
+social_links:
+#  - { platform: dribbble,      user_url: "https://dribbble.com/deep-forest" }
+#  - { platform: facebook,      user_url: "https://www.facebook.com/deep-forest" }
+#  - { platform: flickr,        user_url: "https://www.flickr.com/photos/deep-forest" }
+ - { platform: github,        user_url: "https://github.com/ian-pvd" }
+#  - { platform: instagram,     user_url: "https://www.instagram.com/deep-forest" }
+ - { platform: linkedin,      user_url: "https://www.linkedin.com/in/ianpvd/" }
+ - { platform: codepen,       user_url: "https://codepen.io/ian-pvd" }
+ - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/1299588/ian-pvd" }
+ - { platform: twitter,       user_url: "https://twitter.com/ian_pvd" }
+#  - { platform: youtube,       user_url: "https://www.youtube.com/deep-forest" }
+
+# Build settings
+
+# SCSS config
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed

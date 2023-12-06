@@ -1,0 +1,87 @@
+.home__wrapper {
+	margin-top: calc(-1 * var(--space-large));
+	margin: 0 0 var(--space-large) 50%;
+	padding: var(--space-medium) 0 var(--space-xlarge);
+	position: relative;
+	transform: translate(-50%, 0);
+	width: var(--viewport-width);
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-bottom: var(--border-layout);
+		background-image: url("/assets/images/fake-brick.png");
+		opacity: 0.25;
+		z-index: -1;
+	}
+}
+
+.home__title,
+.home__content {
+	@include wrapper;
+	padding-top: var(--space-medium);
+	padding-bottom: var(--space-medium);
+}
+
+.home__title {
+	text-wrap: balance;
+
+	&::after {
+		animation: blink 1000ms infinite;
+		content: "_";
+		display: inline-block;
+		font-size: 0.8em;
+	}
+}
+
+.home__content {
+	@include content;
+
+	@media #{$desktop} {
+		padding-top: var(--space-medium);
+	}
+
+	@media #{$xlarge} {
+		padding-top: var(--space-large);
+		padding-bottom: var(--space-large);
+	}
+}
+
+.home__posts {
+	@include end-of-page;
+}
+
+.home__posts-title {
+	margin-bottom: var(--space-medium);
+	padding-bottom: var(--space-medium);
+	border-bottom: var(--border-layout);
+	line-height: 1;
+}
+
+.home__post-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.home__post-item {
+	margin-bottom: var(--space-large);
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.home__footer-links {
+	@include footer-links;
+}
+
+/* Hide Posts */
+.home__posts,
+.home__footer {
+	display: none;
+}

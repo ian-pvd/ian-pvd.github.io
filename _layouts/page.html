@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="page">
+
+	<header class="page__header">
+		<h1 class="page__title">
+			{{ page.title | escape }}
+		</h1>
+	</header>
+
+	<div class="page__content">
+		{{ content }}
+	</div>
+
+	<footer class="page__footer">
+		<nav class="page__footer-links">
+			<a class="page__footer-link" rel="home" href="{{ "/" | relative_url }}">Home</a>
+			<a class="home__footer-link" href="{{ "/resume/" | relative_url }}">Resume</a>
+			{% if page.url != "/contact/" %}
+			<a class="page__footer-link" href="{{ "/contact/" | relative_url }}">Hire Me</a>
+			{% endif %}
+		</nav>
+	</footer>
+</div>
