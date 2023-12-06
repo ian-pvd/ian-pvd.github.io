@@ -52,12 +52,17 @@
 }
 
 .site-header__logo {
-	width: 2.5rem;
 	aspect-ratio: 1;
+	transition: transform 500ms ease-in-out;
+	width: 2.5rem;
 
 	@media #{$desktop} {
 		margin: auto 0;
 		width: var(--size-logo-desktop);
+	}
+
+	&:hover {
+		transform: rotate(360deg);
 	}
 }
 

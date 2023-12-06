@@ -28,7 +28,7 @@ defaults:
 theme_color: dark-green # possible values: dark-green light-green dark-red light-red, default: dark-green
 reduce_motion: false # possible values: true false, default: false
 show_excerpts: false # possible values: true false, default: false
-logo_url: '/assets/images/logo.svg' # logo url, default: /assets/logo.svg
+logo_url: '/assets/images/pvd-logo.svg' # logo url, default: /assets/logo.svg
 avatar_url: '/assets/images/avatar.jpg' # avatar url, default: /assets/avatar.png
 
 # Theme settings
