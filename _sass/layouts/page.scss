@@ -1,6 +1,6 @@
 .page__title {
 	border-bottom: var(--border-layout);
-	letter-spacing: 0.033em;
+	letter-spacing: calc(0.033em / 2);
 	margin-bottom: var(--space-medium);
 	padding-bottom: var(--space-medium);
 }

@@ -1,10 +1,10 @@
-title: Deep Forest
-repo: https://github.com/ian-pvd/deep-forest
-license: https://github.com/ian-pvd/deep-forest/blob/main/LICENSE.txt
+title: ian-pvd
+repo: https://github.com/ian-pvd/ian-pvd.github.io
+# license: https://github.com/ian-pvd/ian-pvd.github.io/blob/main/LICENSE.txt
 author:
   name: ian-pvd
-  email: pvdindustrial@gmail.com
-twitter: deep_forest
+  email: ian.pvd@gmail.com
+twitter: ian_pvd
 
 # Jekyll plugins
 plugins:
@@ -34,9 +34,9 @@ avatar_url: '/assets/images/avatar.png' # avatar url, default: /assets/avatar.pn
 # Theme settings
 
 description: >
-  Jekyll portfolio theme for developers
+  I'm Ian, a full stack web developer
 about: >
-  Deep Forest is a theme for developer portfolios hosted on github pages. Add examples of your work, blog posts, or a resume.
+  I’m a Brooklyn based full-stack web developer. Workinging professionally since 2009, I have 11 years experience working with WordPress VIP partner agencies.
 
 # To enable Google Analytics, add your tracking ID here.
 # google_analytics: UA-NNNNNNNN-N
@@ -45,14 +45,14 @@ about: >
 primary_nav:
   - resume.md
   - portfolio.md
-  - posts.md
+  # - posts.md
   - about.md
 
 # Add pages to the site-footer utilities navigation in this order.
 utilities_nav:
   - resume.md
   - portfolio.md
-  - posts.md
+  # - posts.md
   - contact.md
   - about.md
 
@@ -61,12 +61,12 @@ social_links:
 #  - { platform: dribbble,      user_url: "https://dribbble.com/deep-forest" }
 #  - { platform: facebook,      user_url: "https://www.facebook.com/deep-forest" }
 #  - { platform: flickr,        user_url: "https://www.flickr.com/photos/deep-forest" }
- - { platform: github,        user_url: "https://github.com/ian-pvd/deep-forest" }
+ - { platform: github,        user_url: "https://github.com/ian-pvd" }
 #  - { platform: instagram,     user_url: "https://www.instagram.com/deep-forest" }
- - { platform: linkedin,      user_url: "https://www.linkedin.com/in/deep-forest" }
- - { platform: codepen,       user_url: "https://codepen.io/deep-forest" }
- - { platform: twitter,       user_url: "https://twitter.com/deep-forest" }
- - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/1234567/deep-forest" }
+ - { platform: linkedin,      user_url: "https://www.linkedin.com/in/ianpvd/" }
+ - { platform: codepen,       user_url: "https://codepen.io/ian-pvd" }
+ - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/1299588/ian-pvd" }
+ - { platform: twitter,       user_url: "https://twitter.com/ian_pvd" }
 #  - { platform: youtube,       user_url: "https://www.youtube.com/deep-forest" }
 
 # Build settings
@@ -74,4 +74,4 @@ social_links:
 # SCSS config
 sass:
   sass_dir: _sass
-  style: nested # possible values: nested expanded compact compressed
+  style: compressed # possible values: nested expanded compact compressed

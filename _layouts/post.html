@@ -35,7 +35,7 @@ layout: default
 			{% assign tweetText = "@" | append: twitterHandle %}
 
 			<a class="article__footer-link" rel="home" href="{{ "/" | relative_url }}">Home</a>
-			<a class="article__footer-link" rel="home" href="{{ "/posts/" | relative_url }}">Posts</a>
+			<a class="article__footer-link" href="{{ "/posts/" | relative_url }}">Posts</a>
 			<a class="article__footer-link"
 				href="http://twitter.com/share?text={{ tweetText | cgi_escape }}&url={{ pageUrl }}" target="_blank"
 				rel="noopener nofollow">Reply</a>

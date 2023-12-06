@@ -52,13 +52,7 @@
 		{%- endif -%}
 
 		<span class="site-footer__copyright">
-			{%- if site.license -%}
-			<a href="{{ site.license }}" target="_blank" rel="noopener nofollow">
-				{%- endif -%}
-				&copy; {{ site.title | escape }} {{ site.time | date: '%Y' }}
-				{%- if site.license -%}
-			</a>
-			{%- endif -%}
+			{{ site.title | escape }}<br>{{ site.time | date: '%Y' }}
 		</span>
 	</div>
 </footer>

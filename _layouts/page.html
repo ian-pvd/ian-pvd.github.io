@@ -17,7 +17,10 @@ layout: default
 	<footer class="page__footer">
 		<nav class="page__footer-links">
 			<a class="page__footer-link" rel="home" href="{{ "/" | relative_url }}">Home</a>
-			<a class="page__footer-link" rel="home" href="mailto:{{ site.author.email }}?subject=Work With Me">Hire Me</a>
+			<a class="home__footer-link" href="{{ "/resume/" | relative_url }}">Resume</a>
+			{% if page.url != "/contact/" %}
+			<a class="page__footer-link" href="{{ "/contact/" | relative_url }}">Hire Me</a>
+			{% endif %}
 		</nav>
 	</footer>
 </div>

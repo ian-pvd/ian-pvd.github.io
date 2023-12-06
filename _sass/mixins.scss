@@ -129,6 +129,7 @@
 		min-width: 6.75rem;
 		text-transform: uppercase;
 		white-space: nowrap;
+		align-items: flex-start;
 
 		@media #{$desktop} {
 			margin-right: var(--space-medium);
