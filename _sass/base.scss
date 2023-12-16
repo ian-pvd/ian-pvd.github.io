@@ -13,7 +13,7 @@ body {
 	color: var(--c-text);
 	display: flex;
 	flex-direction: column;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: var(--ff-sans-serif);
 	font-size: var(--fs-medium);
 	font-weight: 600;
 	line-height: calc(4 / 3);
