@@ -2,19 +2,18 @@
  * Theme Variables
  */
 :root {
-	/* Colors */
-	--color-black: #000; // #000000
-	--color-log-cabin: hsl(120, 3%, 4%); // #0a0b0a
-	--color-heavy-metal: hsl(120, 6%, 7.5%); // #121412
-	--color-tom-thumb: hsl(120, 25%, 25%); // #305030
-	--color-tundora: hsl(300, 3%, 25%); // #423e42
 
-	--color-tundora2: hsl(300, 2%, 15%); // #423e42
-
-	--color-apple: hsl(120, 50%, 55%); // #53c653
-	--color-laurel: hsl(120, 15%, 50%); // #6c936c
-	--color-xanadu: hsl(120, 2%, 50%); // #7d827d
-	--color-bon-jour: hsl(300, 3%, 90%); // #e7e4e7
+	/* Named Colors */
+	/* #000000 */ --color-black: #000;
+	/* #0a0b0a */ --color-log-cabin: hsl(120, 3%, 4%);
+	/* #121412 */ --color-heavy-metal: hsl(120, 6%, 7.5%);
+	/* #272527 */ --color-thunder: hsl(300, 2%, 15%);
+	/* #305030 */ --color-tom-thumb: hsl(120, 25%, 25%);
+	/* #423e42 */ --color-tundora: hsl(300, 3%, 25%);
+	/* #53c653 */ --color-apple: hsl(120, 50%, 55%);
+	/* #6c936c */ --color-laurel: hsl(120, 15%, 50%);
+	/* #7d827d */ --color-xanadu: hsl(120, 2%, 50%);
+	/* #e7e4e7 */ --color-bon-jour: hsl(300, 3%, 90%);
 
 	/* Color contexts */
 	--c-background: var(--color-heavy-metal);
@@ -43,7 +42,7 @@
 	--space-xxlarge: 6rem; // 96px
 
 	/* Borders */
-	--border-hr:  2px solid var(--color-tundora2);
+	--border-hr: 2px solid var(--color-thunder);
 	--border-layout: 2px solid var(--color-tundora);
 	--border-line: 2px solid var(--c-text);
 	--border-ui: 1px solid var(--color-xanadu);
