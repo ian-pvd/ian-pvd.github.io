@@ -65,7 +65,7 @@
 
 	& p {
 		font-size: var(--fs-small);
-		line-height: calc(4 / 3);
+		line-height: var(--lh-medium);
 		margin-bottom: var(--space-small);
 	}
 }
@@ -81,7 +81,7 @@
 
 	& p {
 		font-size: var(--fs-small);
-		line-height: calc(4 / 3);
+		line-height: var(--lh-medium);
 		max-width: 34rem;
 	}
 

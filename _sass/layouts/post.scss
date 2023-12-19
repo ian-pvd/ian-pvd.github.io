@@ -42,7 +42,7 @@
 	color: var(--color-venus);
 	display: inline-block;
 	font-weight: bold;
-	line-height: calc(5/3);
+	line-height: var(--lh-xlarge);
 	margin-right: var(--space-small);
 	text-transform: uppercase;
 }

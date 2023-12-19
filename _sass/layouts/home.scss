@@ -34,7 +34,9 @@
 		animation: blink 1000ms infinite;
 		content: "_";
 		display: inline-block;
-		font-size: 0.8em;
+		font-family: var(--ff-monospace);
+		font-size: 0.75em;
+		line-height: 1;
 	}
 }
 
