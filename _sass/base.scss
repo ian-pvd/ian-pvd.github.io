@@ -36,14 +36,14 @@ a {
 	color: var(--c-link);
 	text-decoration: none;
 	transition-property: color;
-	transition-duration: 500ms;
+	transition-duration: var(--ts-xslow);
 	transition-timing-function: ease-in-out;
 
 	&:focus,
 	&:hover {
 		color: var(--c-link-hover);
 		text-decoration: underline;
-		transition-duration: 250ms;
+		transition-duration: var(--ts-fast);
 	}
 }
 
