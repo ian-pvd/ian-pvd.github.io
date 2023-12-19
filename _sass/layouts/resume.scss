@@ -54,7 +54,7 @@
 
 	& h3 {
 		break-after: avoid;
-		font-size: var(--fs-small);
+		font-size: var(--fs-medium);
 		margin-bottom: var(--space-xsmall);
 		margin-top: var(--space-medium);
 
@@ -64,7 +64,7 @@
 	}
 
 	& p {
-		font-size: var(--fs-xsmall);
+		font-size: var(--fs-small);
 		line-height: calc(4 / 3);
 		margin-bottom: var(--space-small);
 	}
@@ -80,14 +80,14 @@
 	}
 
 	& p {
-		font-size: var(--fs-xsmall);
+		font-size: var(--fs-small);
 		line-height: calc(4 / 3);
 		max-width: 34rem;
 	}
 
 	& em {
 		display: block;
-		font-size: var(--fs-xsmall);
+		font-size: var(--fs-small);
 		margin-bottom: var(--space-xsmall);
 	}
 
