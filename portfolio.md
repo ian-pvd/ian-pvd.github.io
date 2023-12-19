@@ -8,6 +8,8 @@ Over the past 15 years I have helped deliver web projects for Hilton, GE, the Gu
 
 ## My Projects
 
+I have a collection of some of my personal code projects available to browse on GitHub.
+
 [![Deep Forest project title card.](http://127.0.0.1:4000/assets/images/deep-forest.png)](https://github.com/ian-pvd/deep-forest){:target="_blank"}{:class="portfolio-link"}
 
 [Deep Forest](https://github.com/ian-pvd/deep-forest){:target="_blank"} is a Jekyll starter theme for creatives who want to build clean & simple resume or portfolio sites hosted on github pages. It's the basis for this ian-pvd site.
@@ -18,9 +20,11 @@ Over the past 15 years I have helped deliver web projects for Hilton, GE, the Gu
 
 [![Color Extract app screenshot.](http://127.0.0.1:4000/assets/images/color-extract.png)](https://github.com/ian-pvd/color-extract){:target="_blank"}{:class="portfolio-link"}
 
-[Color Extract](https://github.com/ian-pvd/color-extract){:target="_blank"} is a simple react applet for finding colors inside clipboard text. It looks for color codes, dedupes them, suggests color names, and builds a list of SCSS variables or CSS custom properties that you can copy into your project. A big help when you're starting with new brand colors.
+[Color Extract](https://github.com/ian-pvd/color-extract){:target="_blank"} is a simple react app for finding colors inside clipboard text. It looks for color codes, dedupes them, suggests color names, and makes a list of SCSS variables or CSS custom properties that you can copy into your project. A big help when you're starting a build with new colors.
 
 ## More Repos
-Take a look at [my github repositories](https://github.com/ian-pvd?tab=repositories){:target="_blank"} for more code samples.
-- I contributions to node packages
-- previously on open source tools like Alley's Huron
+Check out the rest of [my github repositories](https://github.com/ian-pvd?tab=repositories){:target="_blank"} for more code samples.
+
+A few of my WIP projects include the [Roundhouse](https://github.com/ian-pvd/roundhouse-2021){:target="blank"} WordPress theme scaffold for media libraries, and a [films•fm](https://github.com/ian-pvd/films-fm){:target="_blank"} movie rating app built with NextJS.
+
+I've also made contributions to some open source projects, [node packages](https://github.com/bencevans/color-array-average), [Chart.js](https://www.chartjs.org/){:target="_blank"}, and previously on Alley's [Huron](https://github.com/alleyinteractive/huron){:target="_blank"} styleguide generator.
