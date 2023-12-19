@@ -66,12 +66,30 @@
 			margin: var(--space-large) calc(-1 * var(--space-large));
 			width: calc(100% + var(--space-xxlarge));
 		}
+	}
 
-		&.portfolio-preview {
-			margin: var(--space-large) auto;
-			max-width: 32rem;
+	& * + h2 {
+		margin-top: var(--space-large);
+	}
+
+	& .portfolio-link {
+		display: block;
+		margin: var(--space-medium) auto;
+		max-width: 100%;
+
+		&:not(h2 + * > .portfolio-link) {
+			margin: var(--space-large) auto var(--space-medium);
+		}
+
+		& > img {
+			margin: 0;
+			max-width: 100%;
 		}
 	}
+
+	// & h2 + * > .portfolio-link {
+	// 	margin-top: var(--space-small);
+	// }
 
 	& iframe {
 		aspect-ratio: 16 / 9;
