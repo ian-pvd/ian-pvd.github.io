@@ -44,6 +44,7 @@
 	letter-spacing: calc(0.033em / 2);
 
 	& p {
+		line-height: calc(9 / 6);
 		margin-bottom: var(--space-medium);
 	}
 
