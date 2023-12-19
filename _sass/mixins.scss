@@ -84,6 +84,16 @@
 		& > img {
 			margin: 0;
 			max-width: 100%;
+			transition: outline-color var(--ts-fast) ease-in-out;
+			outline: 1px solid transparent;
+		}
+
+		&:hover,
+		&:focus {
+
+			& > img {
+				outline-color: var(--c-link);
+			}
 		}
 	}
 

@@ -14,7 +14,7 @@ Over the past 15 years I have helped deliver web projects for Hilton, GE, the Gu
 
 [![Gothamish theme homepage.](http://127.0.0.1:4000/assets/images/gothamish.png)](https://github.com/ian-pvd/gothamish){:target="_blank"}{:class="portfolio-link"}
 
-[Gothamish](https://github.com/ian-pvd/gothamish){:target="_blank"} is a WordPress theme for New York. This project was inspired by the shutdown of Gothamist after it was sold in 2017. The theme was built to make a WordPress site resemble Gothamist's appearance at the time. It also modernized some features for accessibility, performance, and other quality of life improvements.
+[Gothamish](https://github.com/ian-pvd/gothamish){:target="_blank"} is a WordPress theme for New York. This project was in response to Gothamist shutting down after it was sold in 2017. The theme was built so that anyone can make a WordPress site that resembles Gothamist's appearance at the time. It also modernized some features for accessibility, performance, and other quality of life improvements.
 
 [![Color Extract app screenshot.](http://127.0.0.1:4000/assets/images/color-extract.png)](https://github.com/ian-pvd/color-extract){:target="_blank"}{:class="portfolio-link"}
 
