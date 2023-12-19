@@ -52,6 +52,17 @@
 	--ff-monospace: Monaco, Consolas, "Lucida Console", "Courier New", Courier, monospace;
 	--ff-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+	/* Transitions */
+	--ts-xfast: 125ms;
+	--ts-fast: 250ms;
+	--ts-slow: 350ms;
+	--ts-xslow: 500ms;
+
+	/* Line Height */
+	--lh-medium: calc(4 / 3);
+	--lh-large: calc(9 / 6);
+	--lh-xlarge: calc(5 / 3);
+
 	/* TODO: Organize the other variables. */
 	--mw-site-layout: calc(54rem + var(--space-large)); // 54rem + 3rem (half site footer padding)
 	--size-logo-desktop: 3rem; // 48px
