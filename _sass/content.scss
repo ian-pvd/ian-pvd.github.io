@@ -61,9 +61,27 @@
 		font-size: var(--fs-small);
 		margin: var(--space-large) auto;
 		padding: var(--space-xsmall) var(--space-small);
+		width: 100%;
+
+		@media #{$desktop} {
+			width: auto;
+		}
+
+		& tr {
+			display: block;
+
+			@media #{$tablet} {
+				display: table-row;
+			}
+		}
 
 		& td {
+			display: block;
 			padding: var(--space-xsmall) var(--space-small);
+
+			@media #{$tablet} {
+				display: table-cell;
+			}
 		}
 	}
 
