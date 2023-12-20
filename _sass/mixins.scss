@@ -31,12 +31,13 @@
 	box-shadow: 0 4px 2px 0 var(--color-black);
 	display: block;
 	height: auto;
-	margin: var(--space-large) calc(-1 * var(--space-large));
-	max-width: unset;
+	margin: var(--space-large) calc(-1 * var(--space-medium));
+	max-width: var(--viewport-width);
 	width: calc(100% + var(--space-xlarge));
 
 	@media #{$tablet} {
 		box-shadow: 0 4px 4px -2px var(--color-black);
+		margin: var(--space-large) calc(-1 * var(--space-large));
 		width: calc(100% + var(--space-xxlarge));
 	}
 

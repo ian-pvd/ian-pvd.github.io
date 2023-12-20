@@ -1,11 +1,13 @@
 .article__featured-image {
 	@include full-bleed;
-	width: var(--viewport-width);
-	margin: calc(-1 * var(--space-large)) calc(-1 * var(--space-medium)) var(--space-medium);
+	margin-top: calc(-1 * var(--space-large));
+
+	@media #{$tablet} {
+		margin-top: calc(-1 * var(--space-large));
+	}
 
 	@media #{$desktop} {
-		margin: calc(-1 * var(--space-large)) calc(-1 * var(--space-large)) var(--space-large);
-		width: calc(100% + var(--space-xxlarge));
+		margin-top: calc(-1 * var(--space-small));
 	}
 
 	@media #{$large} {
