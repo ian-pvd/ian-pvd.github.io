@@ -42,6 +42,7 @@
 
 	@media #{$desktop} {
 		box-shadow: 0 12px 6px -9px var(--color-black);
+		margin: var(--space-xlarge) calc(-1 * var(--space-large));
 	}
 }
 

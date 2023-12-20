@@ -27,12 +27,12 @@
 
 	& img,
 	& iframe {
-		margin: 0 auto;
+		margin: var(--space-large) auto;
 		display: block;
 		max-width: 100%;
 
 		@media #{$desktop} {
-			margin: 0 auto;
+			margin: var(--space-large) auto;
 		}
 
 		&.size-small {
@@ -45,6 +45,11 @@
 
 		&.size-large {
 			@include full-bleed;
+		}
+
+		&.screen {
+			margin-bottom: calc(-1 * var(--space-medium));
+			margin-top: 0;
 		}
 	}
 
