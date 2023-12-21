@@ -20,7 +20,7 @@ My GitHub has a collection of personal projects I've set up to help organize thi
 
 [![Color Extract app screenshots.](/assets/images/color-extract.png)](https://github.com/ian-pvd/color-extract){:target="_blank"}{:class="portfolio-link"}
 
-[Color Extract](https://github.com/ian-pvd/color-extract){:target="_blank"} is a simple React app for finding colors inside clipboard text. It looks for color codes, dedupes them, suggests color names, and creates a list of SCSS variables or CSS custom properties that you can copy into your project. A big help when you're starting a build with new colors.
+[Color Extract](https://github.com/ian-pvd/color-extract){:target="_blank"} is a simple React app that checks for colors in clipboard text. It finds color codes, de-dupes them, suggests color names, and creates a list of CSS variables to copy into your project. A time-saver when migrating old stylesheets or using new brand guidelines.
 
 ## More Repos
 Check out the rest of [my github repositories](https://github.com/ian-pvd?tab=repositories){:target="_blank"} for more code samples.

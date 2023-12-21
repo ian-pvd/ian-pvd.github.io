@@ -5,7 +5,7 @@ topic: chrome tabs
 image: chrome-tabs-menu.png
 ---
 
-Firefox is my browser for casual reading & browsing but when I need to get work done, I switch back to Chrome. Tab groups are crucial for keeping my development workflows untangled.
+For casual reading & browsing, use Firefox. When I need to get work done, I always switch back to Chrome. Tab groups are crucial for keeping my development workflows untangled.
 
 I prefer to have as few tabs open as possible, and I always want to be able to find the one I need. Chrome's tab groups, along with quickly pinning, undocking, duplicating, and searching tabs is indispensable during project management and engineering.
 
