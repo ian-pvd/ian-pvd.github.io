@@ -4,7 +4,7 @@
 	color: var(--c-text);
 	display: flex;
 	height: var(--size-site-header);
-	padding: 1rem var(--space-medium);
+	padding: var(--space-default) var(--space-medium);
 	position: relative;
 	width: var(--viewport-width);
 	z-index: 10;
@@ -44,7 +44,7 @@
 .site-header__home-link {
 	align-items: center;
 	display: flex;
-	margin: 0 1rem 0 0;
+	margin: 0 var(--space-default) 0 0;
 
 	&:hover,
 	&:focus {
@@ -152,7 +152,7 @@
 	@media #{$desktop} {
 		border-bottom: none;
 		font-size: var(--fs-medium);
-		margin: 0 0 0 1rem;
+		margin: 0 0 0 var(--space-default);
 		padding: 0;
 	}
 }

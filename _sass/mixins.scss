@@ -64,18 +64,10 @@
 	display: grid;
 	gap: var(--space-small);
 	grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
-	margin-bottom: calc(-1 * var(--space-small));
 
 	@media #{$tablet} {
 		display: flex;
 		flex-wrap: wrap;
-	}
-
-	& li {
-
-		@media #{$tablet} {
-			min-width: 6rem;
-		}
 	}
 
 	& a {
@@ -86,13 +78,14 @@
 		letter-spacing: 0.033em;
 		line-height: 1;
 		overflow: hidden;
-		padding: 1rem var(--space-large);
+		padding: var(--space-default) var(--space-medium);
 		text-align: center;
 		text-transform: uppercase;
 		white-space: nowrap;
 
 		@media #{$tablet} {
-			padding: var(--space-small) var(--space-large);
+			padding: var(--space-small) var(--space-medium);
+			min-width: 8rem;
 		}
 	}
 }

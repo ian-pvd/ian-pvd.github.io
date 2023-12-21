@@ -47,7 +47,7 @@
 			@include full-bleed;
 		}
 
-		&.screen {
+		&.screenshot {
 			margin-bottom: calc(-1 * var(--space-medium));
 			margin-top: 0;
 		}
@@ -75,28 +75,46 @@
 		& tr {
 			display: block;
 
+			&:not(:last-child) {
+				margin-bottom: var(--space-small);
+			}
+
 			@media #{$tablet} {
 				display: table-row;
+				margin: 0;
 			}
 		}
 
 		& td {
 			display: block;
 			padding: var(--space-xsmall) var(--space-small);
+			text-align: center;
+			text-wrap: balance;
 
 			@media #{$tablet} {
 				display: table-cell;
+				padding: var(--space-xsmall) var(--space-default);
+				text-align: unset;
+
+				&:last-child {
+					text-align: right;
+				}
 			}
 		}
 	}
 
-	// All code blocks.
+	// All inline and fenced code blocks.
 	& .highlighter-rouge {
 		background: var(--c-site-header);
 		border-radius: var(--space-xsmall);
 		box-shadow: 0 0 3px -1px var(--c-text);
-		font-size: var(--fs-small);
+		font-size: var(--fs-xsmall);
 		padding: 4px 8px;
+
+		&:is(code) {
+			display: inline-block;
+			margin-bottom: var(--space-xsmall);
+		}
 	}
 
 	// Fenced code blocks.

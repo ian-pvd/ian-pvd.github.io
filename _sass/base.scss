@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 1rem;
+	margin: 0 0 var(--space-default);
 	font-weight: 600;
 }
 
@@ -69,12 +69,12 @@ h1 {
 
 p {
 	line-height: var(--lh-medium);
-	margin: 0 0 1rem;
+	margin: 0 0 var(--space-medium);
 }
 
 svg {
 	display: inline-block;
-	min-height: 1rem;
-	min-width: 1rem;
+	min-height: var(--space-default);
+	min-width: var(--space-default);
 	vertical-align: text-bottom;
 }
