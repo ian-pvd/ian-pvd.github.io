@@ -61,24 +61,38 @@
 }
 
 @mixin footer-links {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
+	display: grid;
+	gap: var(--space-small);
+	grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
 	margin-bottom: calc(-1 * var(--space-small));
 
-	& > a {
+	@media #{$tablet} {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	& li {
+
+		@media #{$tablet} {
+			min-width: 6rem;
+		}
+	}
+
+	& a {
 		@include button();
+		display: block;
 		font-size: var(--fs-small);
 		font-weight: bold;
 		letter-spacing: 0.033em;
-		margin: 0 var(--space-small) var(--space-small) 0;
-		min-width: 6.75rem;
+		line-height: 1;
+		overflow: hidden;
+		padding: 1rem var(--space-large);
+		text-align: center;
 		text-transform: uppercase;
 		white-space: nowrap;
-		align-items: flex-start;
 
-		@media #{$desktop} {
-			margin-right: var(--space-medium);
+		@media #{$tablet} {
+			padding: var(--space-small) var(--space-large);
 		}
 	}
 }

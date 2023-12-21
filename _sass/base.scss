@@ -36,7 +36,7 @@ a {
 	color: var(--c-link);
 	text-decoration: none;
 	transition-property: color;
-	transition-duration: var(--ts-xslow);
+	transition-duration: var(--ts-slow);
 	transition-timing-function: ease-in-out;
 
 	&:focus,

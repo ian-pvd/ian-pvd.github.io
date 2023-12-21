@@ -54,8 +54,10 @@
 	/* Transitions */
 	--ts-xfast: 125ms;
 	--ts-fast: 250ms;
-	--ts-slow: 350ms;
-	--ts-xslow: 500ms;
+	--ts-default: 350ms;
+	--ts-slow: 500ms;
+	--ts-xslow: 750ms;
+	--ts-xxslow: 1000ms;
 
 	/* Line Height */
 	--lh-medium: calc(4 / 3);
