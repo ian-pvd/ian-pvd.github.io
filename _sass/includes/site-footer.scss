@@ -39,7 +39,7 @@
 }
 
 .site-footer__about {
-	font-size: var(--fs-xsmall);
+	font-size: var(--fs-small);
 	font-weight: normal;
 	letter-spacing: var(--ls-medium);
 	margin: 0;
@@ -47,6 +47,7 @@
 	@media #{$desktop} {
 		font-size: var(--fs-small);
 		grid-row: span 2;
+		line-height: var(--lh-medium);
 		margin: 0;
 		padding: var(--space-medium) var(--space-large) var(--space-medium) 0;
 	}
@@ -74,7 +75,7 @@
 
 .site-footer__author-twitter,
 .site-footer__author-email {
-	font-size: var(--fs-xsmall);
+	font-size: var(--fs-small);
 	font-weight: normal;
 	letter-spacing: var(--ls-medium);
 
