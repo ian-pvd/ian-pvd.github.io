@@ -4,7 +4,7 @@
 	color: var(--c-text);
 	display: flex;
 	height: var(--size-site-header);
-	padding: 1rem var(--space-medium);
+	padding: var(--space-default) var(--space-medium);
 	position: relative;
 	width: var(--viewport-width);
 	z-index: 10;
@@ -41,10 +41,16 @@
 	}
 }
 
-.site-header__logo-link {
+.site-header__home-link {
 	align-items: center;
 	display: flex;
-	margin: 0 1rem 0 0;
+	margin: 0 var(--space-default) 0 0;
+
+	&:hover,
+	&:focus {
+		color: var(--c-link);
+		text-decoration: none;
+	}
 
 	@media #{$desktop} {
 		margin: 0 var(--space-medium) 0 0;
@@ -53,43 +59,29 @@
 
 .site-header__logo {
 	aspect-ratio: 1;
-	transition: transform var(--ts-xslow) ease-in-out;
+	transition: transform var(--ts-xxslow) ease-in-out;
 	width: 2.5rem;
 
 	@media #{$desktop} {
 		margin: auto 0;
-		transition: transform var(--ts-xslow) ease-in-out;
+		transition: transform var(--ts-slow) ease-in-out;
 		width: var(--size-logo-desktop);
 	}
 
-	&:hover {
-		transform: rotate(360deg);
+	@at-root
+	.site-header__home-link:hover &,
+	.site-header__home-link:focus & {
+		transform: rotate(180deg);
 	}
 }
 
 .site-header__title {
 	font-size: clamp(var(--fs-xlarge), 4vw, var(--fs-xxlarge));
-	margin: 0 1rem 0 0;
-	letter-spacing: calc(0.033em / 2);
+	margin: 0 0 0 var(--space-small);
+	letter-spacing: var(--ls-small);
 
 	@media #{$desktop} {
-		display: flex;
-		margin: 0 var(--space-medium) 0 0;
-	}
-}
-
-.site-header__title-link {
-	color: var(--c-link);
-	text-decoration: none;
-
-	&:focus,
-	&:hover {
-		color: var(--c-link-hover);
-		text-decoration: none;
-	}
-
-	@media #{$desktop} {
-		margin: auto 0;
+		margin: 0 0 0 var(--space-medium);
 	}
 }
 
@@ -146,7 +138,7 @@
 .site-header__nav-item {
 	border-bottom: var(--border-line);
 	font-size: var(--fs-xlarge);
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	line-height: 1;
 	margin-bottom: var(--space-small);
 	padding-bottom: var(--space-small);
@@ -160,7 +152,7 @@
 	@media #{$desktop} {
 		border-bottom: none;
 		font-size: var(--fs-medium);
-		margin: 0 0 0 1rem;
+		margin: 0 0 0 var(--space-default);
 		padding: 0;
 	}
 }

@@ -34,19 +34,20 @@
 
 .site-footer__title {
 	font-size: var(--fs-xlarge);
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	margin: 0 0 var(--space-xsmall);
 }
 
 .site-footer__about {
-	font-size: var(--fs-xsmall);
+	font-size: var(--fs-small);
 	font-weight: normal;
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	margin: 0;
 
 	@media #{$desktop} {
 		font-size: var(--fs-small);
 		grid-row: span 2;
+		line-height: var(--lh-medium);
 		margin: 0;
 		padding: var(--space-medium) var(--space-large) var(--space-medium) 0;
 	}
@@ -74,9 +75,9 @@
 
 .site-footer__author-twitter,
 .site-footer__author-email {
-	font-size: var(--fs-xsmall);
+	font-size: var(--fs-small);
 	font-weight: normal;
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 
 	@media #{$desktop} {
 		font-size: var(--fs-small);
@@ -121,7 +122,7 @@
 }
 
 .site-footer__nav-item {
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	margin: 0 var(--space-xsmall) var(--space-xxsmall);
 }
 

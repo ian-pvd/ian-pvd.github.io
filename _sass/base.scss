@@ -16,7 +16,7 @@ body {
 	font-family: var(--ff-sans-serif);
 	font-size: var(--fs-medium);
 	font-weight: 600;
-	line-height: var(--lh-medium);
+	line-height: var(--lh-small);
 	margin: 0;
 	min-height: 100vh;
 
@@ -36,7 +36,7 @@ a {
 	color: var(--c-link);
 	text-decoration: none;
 	transition-property: color;
-	transition-duration: var(--ts-xslow);
+	transition-duration: var(--ts-slow);
 	transition-timing-function: ease-in-out;
 
 	&:focus,
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 1rem;
+	margin: 0 0 var(--space-default);
 	font-weight: 600;
 }
 
@@ -68,13 +68,13 @@ h1 {
 }
 
 p {
-	line-height: var(--lh-medium);
-	margin: 0 0 1rem;
+	line-height: var(--lh-small);
+	margin: 0 0 var(--space-medium);
 }
 
 svg {
 	display: inline-block;
-	min-height: 1rem;
-	min-width: 1rem;
+	min-height: var(--space-default);
+	min-width: var(--space-default);
 	vertical-align: text-bottom;
 }
