@@ -34,14 +34,14 @@
 
 .site-footer__title {
 	font-size: var(--fs-xlarge);
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	margin: 0 0 var(--space-xsmall);
 }
 
 .site-footer__about {
 	font-size: var(--fs-xsmall);
 	font-weight: normal;
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	margin: 0;
 
 	@media #{$desktop} {
@@ -76,7 +76,7 @@
 .site-footer__author-email {
 	font-size: var(--fs-xsmall);
 	font-weight: normal;
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 
 	@media #{$desktop} {
 		font-size: var(--fs-small);
@@ -121,7 +121,7 @@
 }
 
 .site-footer__nav-item {
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	margin: 0 var(--space-xsmall) var(--space-xxsmall);
 }
 

@@ -26,7 +26,7 @@
 
 .article__title {
 	border-bottom: var(--border-layout);
-	letter-spacing: calc(0.033em / 2);
+	letter-spacing: var(--ls-small);
 	margin-bottom: var(--space-medium);
 	padding-bottom: var(--space-medium);
 }
@@ -36,7 +36,7 @@
 	display: flex;
 	font-size: var(--fs-xsmall);
 	justify-content: space-between;
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	margin: 0 0 var(--space-large);
 }
 

@@ -66,6 +66,10 @@
 	--lh-large: calc(4.5 / 3); /* 1.5 */
 	--lh-xlarge: calc(5 / 3); /* 1.666 */
 
+	/* Letter Spacing */
+	--ls-small: calc(15 / 1000em); /* 0.015em */
+	--ls-medium: calc(33 / 1000em); /* 0.033em */
+
 	/* TODO: Organize the other variables. */
 	--mw-site-layout: calc(54rem + var(--space-large)); // 54rem + 3rem (half site footer padding)
 	--size-logo-desktop: 3rem; // 48px

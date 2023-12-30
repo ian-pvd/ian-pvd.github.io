@@ -10,7 +10,7 @@
 }
 
 .resume__title {
-	letter-spacing: calc(0.033em / 2);
+	letter-spacing: var(--ls-small);
 	margin-bottom: var(--space-small);
 
 	@media #{$tablet} {
