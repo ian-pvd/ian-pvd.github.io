@@ -11,20 +11,24 @@
 
 .resume__title {
 	letter-spacing: calc(0.033em / 2);
-	margin-bottom: 0;
+	margin-bottom: var(--space-small);
+
+	@media #{$tablet} {
+		margin-bottom: 0;
+	}
 }
 
 .resume__header-links {
 	@include footer-links;
-	margin-bottom: calc(-1 * var(--space-xxsmall));
-	margin-top: 0;
+	display: inline-grid;
+
+	& a {
+		padding: var(--space-small) var(--space-default);
+	}
 
 	@media #{$tablet} {
 		margin-left: auto;
-	}
-
-	& > :last-child {
-		margin-right: 0;
+		margin-bottom: var(--space-xxsmall);
 	}
 }
 
