@@ -61,9 +61,10 @@
 	--ts-xxslow: 1000ms;
 
 	/* Line Height */
-	--lh-medium: calc(4 / 3);
-	--lh-large: calc(9 / 6);
-	--lh-xlarge: calc(5 / 3);
+	--lh-small: calc(4 / 3); /* 1.333 */
+	--lh-medium: calc(4.2 / 3); /* 1.4 */
+	--lh-large: calc(4.5 / 3); /* 1.5 */
+	--lh-xlarge: calc(5 / 3); /* 1.666 */
 
 	/* TODO: Organize the other variables. */
 	--mw-site-layout: calc(54rem + var(--space-large)); // 54rem + 3rem (half site footer padding)
