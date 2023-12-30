@@ -26,9 +26,9 @@
 .post-item__date {
 	color: var(--color-venus);
 	display: block;
-	font-size: 1rem;
+	font-size: var(--fs-xsmall);
 	font-weight: bold;
-	line-height: calc(5/3);
+	line-height: var(--lh-xlarge);
 	margin-bottom: var(--space-xxsmall);
 	margin-right: 0.75rem;
 	text-transform: uppercase;

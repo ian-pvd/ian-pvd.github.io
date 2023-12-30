@@ -5,15 +5,12 @@
 	{%- assign primary_nav_size = site.pages | map: 'title' | join: '' | size -%}
 
 	<div class="site-header__wrapper">
-		<a class="site-header__logo-link" rel="home" href="{{ "/" | relative_url }}">
+		<a class="site-header__home-link" rel="home" href="{{ "/" | relative_url }}">
 			<img src="{{ site.logo_url | default: '/assets/logo.svg' | relative_url }}" class="site-header__logo" alt="{{ site.title | default: 'Site' }} Logo">
+			<span class="site-header__title">
+				{{ site.title | escape }}
+			</span>
 		</a>
-
-		<span class="site-header__title">
-			<a class="site-header__title-link" rel="home" href="{{ "/" | relative_url }}">
-			{{ site.title | escape }}
-			</a>
-		</span>
 
 		{%- if primary_nav_size > 0 -%}
 		<nav class="site-header__nav" id="site-header-nav" aria-hidden="true">

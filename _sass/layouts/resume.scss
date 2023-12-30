@@ -10,21 +10,25 @@
 }
 
 .resume__title {
-	letter-spacing: calc(0.033em / 2);
-	margin-bottom: 0;
+	letter-spacing: var(--ls-small);
+	margin-bottom: var(--space-small);
+
+	@media #{$tablet} {
+		margin-bottom: 0;
+	}
 }
 
 .resume__header-links {
 	@include footer-links;
-	margin-bottom: calc(-1 * var(--space-xxsmall));
-	margin-top: 0;
+	display: inline-grid;
+
+	& a {
+		padding: var(--space-small) var(--space-default);
+	}
 
 	@media #{$tablet} {
 		margin-left: auto;
-	}
-
-	& > :last-child {
-		margin-right: 0;
+		margin-bottom: var(--space-xxsmall);
 	}
 }
 
@@ -54,7 +58,7 @@
 
 	& h3 {
 		break-after: avoid;
-		font-size: var(--fs-small);
+		font-size: var(--fs-large);
 		margin-bottom: var(--space-xsmall);
 		margin-top: var(--space-medium);
 
@@ -64,9 +68,13 @@
 	}
 
 	& p {
-		font-size: var(--fs-xsmall);
-		line-height: calc(4 / 3);
+		font-size: var(--fs-small);
+		line-height: var(--lh-medium);
 		margin-bottom: var(--space-small);
+
+		@media #{$desktop} {
+			font-size: var(--fs-medium);
+		}
 	}
 }
 
@@ -74,21 +82,25 @@
 .resume__education {
 
 	& h3 {
-		font-size: var(--fs-medium);
+		font-size: var(--fs-large);
 		margin-bottom: var(--space-xxsmall);
-		margin-top: var(--space-xsmall);
+		margin-top: var(--space-medium);
 	}
 
 	& p {
-		font-size: var(--fs-xsmall);
-		line-height: calc(4 / 3);
+		font-size: var(--fs-small);
+		line-height: var(--lh-medium);
 		max-width: 34rem;
+
+		@media #{$desktop} {
+			font-size: var(--fs-medium);
+		}
 	}
 
 	& em {
 		display: block;
 		font-size: var(--fs-xsmall);
-		margin-bottom: var(--space-xsmall);
+		margin-bottom: var(--space-small);
 	}
 
 	& em + em {
@@ -100,6 +112,7 @@
 
 	& p {
 		font-size: var(--fs-small);
+		line-height: var(--lh-medium);
 	}
 }
 
