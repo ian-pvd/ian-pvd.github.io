@@ -71,6 +71,10 @@
 		font-size: var(--fs-small);
 		line-height: var(--lh-medium);
 		margin-bottom: var(--space-small);
+
+		@media #{$desktop} {
+			font-size: var(--fs-medium);
+		}
 	}
 }
 
@@ -87,6 +91,10 @@
 		font-size: var(--fs-small);
 		line-height: var(--lh-medium);
 		max-width: 34rem;
+
+		@media #{$desktop} {
+			font-size: var(--fs-medium);
+		}
 	}
 
 	& em {
