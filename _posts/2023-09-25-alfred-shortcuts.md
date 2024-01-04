@@ -15,3 +15,6 @@ Workflows & shit to install. Use the bookmarks tool and save, and then save a bu
 Use modifier keys to change `gh {query}` from "search github" into "search my repositories"
 
 More fun & weird ones: `scry {query}` to do a scryfall syntax search, `mox {query}` to search either all Moxfield decks or just your own.
+
+Notes:
+https://www.notion.so/ianpvd/My-Alfred-Search-Engines-Snippets-Workflows-00a90a7d1d444fccbdf355df9c0b3936

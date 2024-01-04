@@ -45,14 +45,14 @@ about: >
 primary_nav:
   - resume.md
   - portfolio.md
-  # - posts.md
+  - posts.md
   - about.md
 
 # Add pages to the site-footer utilities navigation in this order.
 utilities_nav:
   - resume.md
   - portfolio.md
-  # - posts.md
+  - posts.md
   - contact.md
   - about.md
 

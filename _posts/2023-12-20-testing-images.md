@@ -1,7 +1,7 @@
 ---
 title: "Gallery Unit Test"
 layout: post
-topic: gallery test
+topic: Test
 image: a-dark-forest.png
 ---
 

@@ -1,9 +1,11 @@
 ---
-title: "MDN Baseline"
+title: "The MDN Baseline Badge"
 layout: post
-topic: Can I Use
+topic: HTML
 ---
 
-Can I use? MDN will tell you.
+Can I use? will show support
+
+MDN's baseline rating is the "Should I use?" you should probably check for client projects.
 
 https://developer.mozilla.org/en-US/blog/baseline-evolution-on-mdn/
