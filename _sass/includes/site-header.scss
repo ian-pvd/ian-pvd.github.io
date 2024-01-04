@@ -78,7 +78,7 @@
 .site-header__title {
 	font-size: clamp(var(--fs-xlarge), 4vw, var(--fs-xxlarge));
 	margin: 0 0 0 var(--space-small);
-	letter-spacing: calc(0.033em / 2);
+	letter-spacing: var(--ls-small);
 
 	@media #{$desktop} {
 		margin: 0 0 0 var(--space-medium);
@@ -138,7 +138,7 @@
 .site-header__nav-item {
 	border-bottom: var(--border-line);
 	font-size: var(--fs-xlarge);
-	letter-spacing: 0.033em;
+	letter-spacing: var(--ls-medium);
 	line-height: 1;
 	margin-bottom: var(--space-small);
 	padding-bottom: var(--space-small);

@@ -1,6 +1,6 @@
 @mixin content {
 
-	letter-spacing: calc(0.033em / 2);
+	letter-spacing: var(--ls-small);
 
 	& p {
 		line-height: var(--lh-large);
@@ -13,7 +13,7 @@
 
 	& em,
 	& strong {
-		letter-spacing: 0.033em;
+		letter-spacing: var(--ls-medium);
 	}
 
 	& ol,

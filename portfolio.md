@@ -22,7 +22,7 @@ My GitHub has a collection of personal projects I've set up to help organize thi
 
 [Color Extract](https://github.com/ian-pvd/color-extract){:target="_blank"} is a simple React app that checks for colors in clipboard text. It finds color codes, de-dupes them, suggests color names, and creates a list of CSS variables to copy into your project. A time-saver when migrating old stylesheets or using new brand guidelines.
 
-## More Repos
+## My Repos
 Check out the rest of [my github repositories](https://github.com/ian-pvd?tab=repositories){:target="_blank"} for more code samples.
 
 A few of my WIP projects include the [Roundhouse](https://github.com/ian-pvd/roundhouse-2021){:target="blank"} WordPress theme scaffold for creators & multimedia libraries, and a [films•fm](https://github.com/ian-pvd/films-fm){:target="_blank"} movie tracking and rating app built with NextJS.
