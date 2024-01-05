@@ -49,9 +49,9 @@ If an event is added to an element that doesn't have interactive behavior, it wi
 
 ## Button Semantics vs Styles
 
-Usually the friction that discourages developers from using a button element is to avoid dealing with the browser's user-agent styles that exist on the button. These are the default styles that browsers will use to give elements their basic appearance.
+Usually the friction that discourages developers from using a button element is to avoid dealing with the browser's user-agent styles. These are the default styles that browsers will use to give elements their basic appearance.
 
-To reset the button styles and apply your custom styles to a blank slate, you can use this mixin to reset button element styles:
+To [reset the button styles](https://css-tricks.com/overriding-default-button-styles/){:target="_blank"} so you can apply your custom styles to a blank slate, use this mixin to reset the default styles:
 ```
 @define-mixin button-reset {
     appearance: none;
