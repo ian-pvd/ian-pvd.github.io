@@ -55,7 +55,7 @@ To [reset the button styles](https://css-tricks.com/overriding-default-button-st
 
 ```
 button {
-	appearance: none;
+    appearance: none;
     background: none;
     border: none;
     box-sizing: inherit;

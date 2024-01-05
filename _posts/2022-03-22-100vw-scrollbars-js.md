@@ -1,5 +1,5 @@
 ---
-title: "Avoid Horizontal Scrollbars Using 100vw"
+title: "Avoid Horizontal Scrollbars With 100vw"
 layout: post
 topic: Styles
 ---
