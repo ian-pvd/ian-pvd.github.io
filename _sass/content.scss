@@ -120,6 +120,7 @@
 	// Fenced code blocks.
 	& > .highlighter-rouge {
 		box-shadow: 0 0 3px -1px var(--c-text), 0 12px 6px -9px var(--color-black);
+		line-height: var(--lh-medium);
 		margin: var(--space-large) calc(-1 * var(--space-small));
 		overflow: auto;
 		padding: var(--space-medium);
