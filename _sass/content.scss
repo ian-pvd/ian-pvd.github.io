@@ -21,6 +21,13 @@
 		margin: 0 auto var(--space-medium);
 	}
 
+	& ol ol,
+	& ol ul,
+	& ul ol,
+	& ul ul {
+		margin: var(--space-small) auto var(--space-medium);
+	}
+
 	& li:not(:last-child) {
 		margin-bottom: var(--space-small);
 	}
