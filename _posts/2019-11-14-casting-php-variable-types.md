@@ -4,12 +4,12 @@ layout: post
 topic: PHP
 ---
 
-In 2015, PHP introduced Type Juggling. I didn't work as much in the back end as I do now, so I didn't use it frequently when it was new. As I work more in the backend, I'm discovering more practical uses for it.
+PHP offers Type Juggling, which converts a variable to the chosen type. In the past, I never found myself using this much. Now, as I work more in the backend, I'm discovering many practical uses for it.
 
-The [syntax](https://www.php.net/manual/en/language.types.type-juggling.php#language.oop5.traits.multiple.ex1){:target="_blank"} specifies a variable type inside parenthesis:
+The [syntax](https://www.php.net/manual/en/language.types.type-juggling.php#language.types.typecasting){:target="_blank"} specifies a variable type inside parenthesis:
 
 ```
-$string = (string) "212";
+$var = (int) "123";
 ```
 
 ## Input Conversion
@@ -28,9 +28,9 @@ Now you can concatenate, calculate, or compare using the variable as needed.
 
 ## Type Checking
 
-Working with TypeScript emphasized the importance of types. Javascript is full of [weird typecasting bugs](https://github.com/denysdovhan/wtfjs?tab=readme-ov-file#-examples){:target="_blank"} but TypeScript guards against this. In PHP, strict comparisons are considered a best practice.
+Working with TypeScript has emphasized the importance of variable types. Javascript is full of [weird typecasting bugs](https://github.com/denysdovhan/wtfjs?tab=readme-ov-file#-examples){:target="_blank"} but TypeScript guards against this. In PHP, strict comparisons are considered a best practice.
 
-For instance, maybe a plugin is expected to return a string value but returns `null` when nothing is found. But your theme is expecting booleans whenever it checks for style options.
+For example, you might expected a plugin to return a string value, but it returns `null` instead when nothing is found. Your theme is expecting booleans whenever it checks for style options.
 
 ```php
 function pvd_get_style() {
@@ -38,7 +38,7 @@ function pvd_get_style() {
 }
 $has_style = pvd_get_style(); // $has_style = "style"
 
-// Strict check to see if any style value was returned:
+// Strict check to see if a style value was returned:
 if ( (bool) $has_style === true ) {
   // Style returned.
 }
