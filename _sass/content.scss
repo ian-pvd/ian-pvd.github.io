@@ -108,12 +108,13 @@
 		background: var(--c-site-header);
 		border-radius: var(--space-xsmall);
 		box-shadow: 0 0 3px -1px var(--c-text);
+		color: var(--c-code);
 		font-size: var(--fs-xsmall);
 		padding: 4px 8px;
 
 		&:is(code) {
 			display: inline-block;
-			margin-bottom: var(--space-xsmall);
+			margin: 0;
 		}
 	}
 
@@ -131,6 +132,11 @@
 			margin: var(--space-large) calc(-1 * var(--space-medium));
 			width: calc(100% + var(--space-large));
 		}
+	}
+
+	// Inline code blocks.
+	& p > .highlighter-rouge {
+		line-height: var(--lh-small);
 	}
 
 	// Portfolio Images
