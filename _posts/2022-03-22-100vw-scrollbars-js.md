@@ -1,20 +1,18 @@
 ---
-title: "Avoid Scrollbars With 100% Viewport Width"
+title: "Avoid Unwanted Scrollbars When Using 100% Viewport Width"
 layout: post
 topic: Styles
 ---
 
-- When you use `width: 100vw` in your styles, this will cause a horizontal scrollbar to show for some users. Especially on Windows, which you probably aren't using while you write styles.
+Using `width: 100vw` in your stylesheets can cause an unwanted horizontal scrollbar to display for some users. This is a common issue on Windows, where a static scrollbar is added to the viewport even when it's not necessary. On a Mac, you can recreate this bug by enabling the "Always Show scroll bars" option.
 
-- This is caused by the vertical scrollbar taking up space in the viewport width that `100vw` doesn't account for. The extra pixels will cause a horizontal overflow that causes a scrollbar to show.
+![scrollbar settings](/assets/images/posts/macos-scrollbar-appearance.png){:class="screenshot"}
 
-- If you're on a mac, you can turn this setting on to see if you're causing a scrollbar to show:
+The 100vw width value in CSS doesn't account for the width of the scrollbar in the viewport. Content that would be behind the scrollbar causes a horizontal overflow instead.
 
-![scrollbar settings](/assets/images/scrollbar-settings.png){:class="screenshot"}
+Some developers will instinctively reach for `overflow: hidden` and apply it to the `<body>` to fix the overflow, but that's not a good practice. This creates a new stacking context which can cause problems with sticky or fixed positioning. More importantly, it doesn't address the layout issues that are causing the bug.
 
-- Sometimes developers will fix this by using `overflow: hidden` on the body tag, but you don't want to do this. It can break things like sticky and fixed positioning. It's also a code smell to simply hide things that are breaking the layout instead of addressing the cause. (Overflow hidden is still fine to use in other, smaller & more isolated component styles.)
-
-- The best way to fix this is to create `--viewport-width` custom property to reference in your CSS. Set this value to `100vw` to start, and then subtract the scrollbar width from it.
+A better solution is to is to create a `--viewport-width` custom property to reference in your stylesheets. Assume its default value is 100vw and then subtract any scrollbar width.
 
 ```css
 :root {
@@ -22,7 +20,7 @@ topic: Styles
 }
 ```
 
-- Use JS to check for a scrollbar and then set the `--scrollbar-width` variable to account for it.
+We can use Javascript to check for a vertical scrollbar by comparing the [window.innerWidth](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth){:target="_blank"} & [document.body.clientWidth](https://www.w3.org/TR/2016/WD-cssom-view-1-20160317/#dom-element-clientwidth) properties and changing the `--scrollbar-width` value.
 
 ```js
 const getScrollbarWidth = () => {
@@ -39,6 +37,8 @@ const getScrollbarWidth = () => {
 }
 ```
 
-- Now, in your CSS, whenever you reference `--viewport-width`, it will use a value that fills the viewport while accounting for the vertical scrollbar, which
+Setting this CSS property on the `<html>` element makes it available to the viewport width calculation in our stylesheet, overriding the `0px` default value.
 
-- Remember that you'll want to use this JS check the scrollbar width when a page first loads, and (using a debouncer) whenever the viewport changes.
+Remember that you'll want to use this function to check for the scrollbar when the page first loads, and again whenever the viewport size changes. (☝️ A great use case for a debouncer.)
+
+Don't hesitate to use overflow hidden elsewhere in your styles. It has may use cases in CSS that's scoped to smaller components. But the safest way to fix an unexpected overflow issue is always to debug it.
