@@ -4,11 +4,11 @@ layout: post
 topic: Styles
 ---
 
-Using `width: 100vw` in your stylesheets can cause an unwanted horizontal scrollbar to display for some users. This is a common issue on Windows, where a static scrollbar is added to the viewport even when it's not necessary. On a Mac, you can recreate this bug by enabling the "Always Show scroll bars" option.
+Using `width: 100vw` in your stylesheets can cause an unwanted horizontal scrollbar to display for some users. This is a common issue on Windows, where a static scrollbar is added to the viewport even when it's not necessary. On a Mac, the scrollbar is shown **over** the content by default, but you can recreate this bug by enabling the "Always Show scroll bars" option.
 
 ![scrollbar settings](/assets/images/posts/macos-scrollbar-appearance.png){:class="screenshot"}
 
-The 100vw width value in CSS doesn't account for the width of the scrollbar in the viewport. Content that would be behind the scrollbar causes a horizontal overflow instead.
+The [100vw width](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts){:target="_blank"} value in CSS doesn't account for the width of the scrollbar in the viewport. Content that would be behind the scrollbar causes [a horizontal overflow](https://destroytoday.com/blog/100vw-and-the-horizontal-overflow-you-probably-didnt-know-about){:target="_blank"} instead.
 
 Some developers will instinctively reach for `overflow: hidden` and apply it to the `<body>` to fix the overflow, but that's not a good practice. This creates a new stacking context which can cause problems with sticky or fixed positioning. More importantly, it doesn't address the layout issues that are causing the bug.
 
