@@ -13,6 +13,7 @@
 	/* #53c653 */ --color-apple: hsl(120, 50%, 55%);
 	/* #6c936c */ --color-laurel: hsl(120, 15%, 50%);
 	/* #7d827d */ --color-xanadu: hsl(120, 2%, 50%);
+	/* #a9d6a9 */ --color-moss-green: hsl(120, 35%, 75%);
 	/* #e7e4e7 */ --color-bon-jour: hsl(300, 3%, 90%);
 
 	/* Color contexts */
@@ -22,6 +23,7 @@
 	--c-link: var(--color-laurel);
 	--c-link-hover: var(--color-apple);
 	--c-highlight: var(--color-tom-thumb);
+	--c-code: var(--color-moss-green);
 
 	/* Font Sizes */
 	--fs-xxsmall: 0.875rem; // 14px

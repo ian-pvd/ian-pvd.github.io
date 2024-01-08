@@ -1,7 +1,7 @@
 ---
 title: "Set keyboard shortcuts for Chrome's tab menu options"
 layout: post
-topic: chrome tabs
+topic: Shortcuts
 image: chrome-tabs-menu.png
 ---
 
@@ -31,6 +31,6 @@ Pinning tabs lets me hide things that I to keep open but will rarely check: inbo
 
 Groups organize all the tabs from your workflow. I use them to collect JS documentation, task information, testing environments, back & front-end views, or whatever else I need to organize into a group.
 
-Undocking tabs with the "Move Tab to New Window" shortcut pops them out into a separate window. This a big help when you're context switching, comparing views, checking for full-screen details, and more.
+Undocking tabs **with** the "Move Tab to New Window" shortcut pops them out into a separate window. This a big help when you're context switching, comparing views, checking for full-screen details, and more.
 
 Adding shortcuts doesn't just make it easier to use the Tab menu's options. Making these available from the keyboard means you'll use them more often. Plus it's one less reason to reach for your mouse, which is always appreciated.
