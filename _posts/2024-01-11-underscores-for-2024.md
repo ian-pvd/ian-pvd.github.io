@@ -10,7 +10,7 @@ These days, my use case for underscores will either be a quick & simple WordPres
 
 While the project still gets lots of attention from developers in the form of [issues](https://github.com/Automattic/_s/issues){:target="_blank"} and [pull requests](https://github.com/Automattic/_s/pulls){:target="_blank"}, it hasn't received an official update from Automattic since January 2022. The codebase is still being used to generate sites using the command `wp scaffold underscores` with the wp-cli tool.
 
-Today I've published a v1.1 release that makes some modern quality of life improvements:
+Today I've published a v1.1 release of the [PVD Industrial _s fork](https://github.com/ian-pvd/_s){:target="_blank"} that makes some modern quality of life improvements:
 - The new build script `npm run compile:prod` will lint and fix your SCSS files *before* compiling them, and now provides developers the option to output minified CSS.
 - A `/build` folder has been added, and build scripts will now output compiled stylesheets there. This folder has also been added to `.gitignore` so that generated files are no longer tracked by version control.
 - The files in the `/sass` directory have been simplified and flattened. Folders in the Sass directory now use an `_index.scss` file to load their partials. Any SCSS files that were stored in nested folders have been moved to the top level next to the index.
