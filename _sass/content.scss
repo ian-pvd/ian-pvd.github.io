@@ -177,6 +177,15 @@
 		}
 	}
 
+	/* Contact Buttons */
+	& .social[target="_blank"] {
+
+		& img {
+			display: inline-block;
+			margin: 4px;
+		}
+	}
+
 	& > *:last-child {
 		margin-bottom: 0;
 	}
