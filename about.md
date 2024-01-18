@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hey I'm Ian, a full-stack web developer. Originally from Providence, Rhode Island, I've been living in Brooklyn since 2015.
+I was hooked on computers by ‘96, and immediately started taking them apart. I'm fascinated by software and what it's able to do. I started programming text-based games, learning 3D animation, making computer graphics, and building my first website. Now I build full-featured applications for the web. I’m still impressed with code, and how it’s able to turn ideas into programs that people can use.
 
-I jumped into web development in 2006 with a pair of books on CSS and PHP & MySQL. Since then I've studied web development & graphic design, and become fluent with CSS, Javascript, and WordPress custom theme & plugin development. Over the past 15 years I have helped deliver web projects for Hilton, GE, the Guggenheim, Brookings, Digital First Media, People & Entertainment Weekly, T-Mobile, Andreessen Horowitz, ADT, SoFi Stadium, and Velcro. I've spent the past 11 years working with fully-distributed WordPress VIP partner agencies, delivering high quality enterprise-scale WorkPress & NextJS projects with short timelines and tight budgets.
+I collect music, and spend a lot of time learning about new artists and labels. I've written album reviews, label showcases, published playlists, and built a ReactJS client for discovering music on Bandcamp.
 
-Using to code to build visually interesting, performant, accessible, and optimized web applications is a full-time passion of mine. In edition to client work, I enjoy working on self-directed projects to help me learn new skills, contributing to help build simple & useful tooling, project scaffolds, and starter themes.
+I spend as much time as I can hiking, camping, and backpacking the Catskills. In New York City, I try to walk around a new neighborhood every month to see what’s there.
 
-Outside of work, my time is spent camping & hiking, watching astronomy and nature documentaries, cooking, working out, playing EDH, and wandering around New York.
+I’m currently doing business as PVD Industrial, working as a freelance web developer, and building an e-commence platform for artists, brands and influencers.
+
+I am available for full-time & freelance remote work.
