@@ -34,9 +34,11 @@ avatar_url: '/assets/images/avatar.jpg' # avatar url, default: /assets/avatar.pn
 # Theme settings
 
 description: >
-  I’m Ian, a full stack web developer
+  Brooklyn-based full stack web developer, building websites and applications for big media clients with WordPress, React & NextJS.
 about: >
-  Brooklyn-based WordPress and JavaScript developer. I hike the Catskills, collect music, wander around NYC, and build lots of neat stuff with code.
+  I'm a full-stack WordPress and JavaScript web developer based in Brooklyn. I hike the Catskills, collect music, wander around NYC, and build lots of neat stuff with code.
+logo: >
+  /apple-touch-icon.png
 
 # To enable Google Analytics, add your tracking ID here.
 google_analytics: G-9DF479PCZ7

@@ -1,6 +1,7 @@
 ---
-title: hello. my name is Ian, and I'm a full stack web developer
+title: ian-pvd – Full Stack Web Developer, WordPress, React, NextJS
 layout: index
+image: /assets/images/ian-pvd-og.png
 ---
 
 I’m a Brooklyn-based web developer with 11 years experience working remotely for WordPress VIP partner agencies. You can check out my [portfolio](/portfolio/), view my [resume](/resume/), browse my [code](https://github.com/ian-pvd?tab=repositories&sort=){:target="_blank"}, read my [dev notes](/posts/), send me an [email](mailto:ianpvd+gh@gmail.com){:target="_blank"}, or [tweet](https://www.twitter.com/ian_pvd){:target="_blank"} at me.
