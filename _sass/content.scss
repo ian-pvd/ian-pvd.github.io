@@ -150,11 +150,10 @@
 	& .portfolio-link {
 		display: block;
 		margin: var(--space-medium) auto var(--space-large);
-		max-width: 24rem; // 384px
 		width: 100%;
 
 		@media #{$desktop} {
-			max-width: 28rem; // 448px
+			display: none;
 		}
 
 		&:not(h2 + * > .portfolio-link) {

@@ -10,13 +10,13 @@ Over the past 15 years I've delivered websites and single page applications for 
 
 My GitHub has a collection of personal projects I've set up to help organize things I'm interested in, show off a proof of concept, or utilities to help simplify development on other projects. Here's a collection of some of my personal projects that are available on GitHub.
 
-[![Deep Forest project title card.](/assets/images/deep-forest.png)](https://github.com/ian-pvd/deep-forest){:target="_blank"}
+[![Deep Forest project title card.](/assets/images/deep-forest.png)](https://github.com/ian-pvd/deep-forest){:target="_blank"}{:class="portfolio-link"}
 🌳 The Jekyll starter theme [Deep Forest](https://github.com/ian-pvd/deep-forest){:target="_blank"} is for creators who want to build clean & simple resume or portfolio sites hosted on github pages. It's the basis for my ian-pvd portfolio site.
 
-[![Gothamish theme homepage.](/assets/images/gothamish.png)](https://github.com/ian-pvd/gothamish){:target="_blank"}
+[![Gothamish theme homepage.](/assets/images/gothamish.png)](https://github.com/ian-pvd/gothamish){:target="_blank"}{:class="portfolio-link"}
 🗽 When Gothamist was shut down after it was sold in 2017, my first reaction was to build [Gothamish](https://github.com/ian-pvd/gothamish){:target="_blank"}, a WordPress theme about New York. The theme is configured as a framework that would allow anyone with a WordPress site to create their own local blog that resembled Gothamist's appearance at the time. It also modernized some features for accessibility, performance, and made user experience improvements.
 
-[![Color Extract app screenshots.](/assets/images/color-extract.png)](https://github.com/ian-pvd/color-extract){:target="_blank"}
+[![Color Extract app screenshots.](/assets/images/color-extract.png)](https://github.com/ian-pvd/color-extract){:target="_blank"}{:class="portfolio-link"}
 🎨 The simple React web app [Color Extract](https://github.com/ian-pvd/color-extract){:target="_blank"} checks for colors in clipboard text. It finds color codes, de-dupes them, suggests color names, and creates a list of CSS variables to copy into your project. A time-saver when migrating CSS from old stylesheets or implementing new brand guidelines.
 
 ## My Repos
