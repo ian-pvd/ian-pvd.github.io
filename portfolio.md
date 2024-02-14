@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-Over the past 15 years I've delivered websites and single page applications for [the Guggenheim](https://alley.com/news/a-look-under-the-hood-with-the-new-guggenheim-org/){:target="_blank"}, GE, [People & Entertainment Weekly](https://alley.com/news/alley-launches-people-com-one-of-the-biggest-sites-on-wordpress-com-vip/){:target="_blank"}, Digital First Media, [Brookings](https://www.brookings.edu/articles/pixels-and-progress-the-evolution-of-brookings-edu-since-1995/){:target="_blank"}, T-Mobile, [ADT](https://newsroom.adt.com/){:target="_blank"}, Velcro, [the state of California](https://calrx.ca.gov/){:target="_blank"}, 70 Faces Media, [HKS](https://www.hksinc.com/){:target="_blank"}, A16Z, [Hilton](https://stories.hilton.com/){:target="_blank"}, and other marketing, big media, and enterprise teams.
+Over the past 15 years I've delivered websites and single page applications for [the Guggenheim](https://alley.com/news/a-look-under-the-hood-with-the-new-guggenheim-org/){:target="_blank"}, GE, [People & Entertainment Weekly](https://alley.com/news/alley-launches-people-com-one-of-the-biggest-sites-on-wordpress-com-vip/){:target="_blank"}, Digital First Media, [The Brookings Institution](https://www.brookings.edu/articles/pixels-and-progress-the-evolution-of-brookings-edu-since-1995/){:target="_blank"}, T-Mobile, [ADT](https://newsroom.adt.com/){:target="_blank"}, Velcro, [the state of California](https://calrx.ca.gov/){:target="_blank"}, 70 Faces Media, [HKS](https://www.hksinc.com/){:target="_blank"}, Meta Sustainability, [Hilton](https://stories.hilton.com/){:target="_blank"}, and more than two dozen other marketing, big media, and enterprise teams.
 
 ## My Projects
 
