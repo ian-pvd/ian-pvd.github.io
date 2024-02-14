@@ -16,7 +16,7 @@ My GitHub has a collection of personal projects I've set up to help organize thi
 
 [![Gothamish theme homepage.](/assets/images/gothamish.png)](https://github.com/ian-pvd/gothamish){:target="_blank"}{:class="portfolio-link"}
 
-🗽 The city culture blog Gothamist was sold in 2017 and shut down before the end of the year. This motivated me to build [Gothamish](https://github.com/ian-pvd/gothamish){:target="_blank"}, a WordPress theme about New York. The theme is configured as a framework that would allow anyone with a WordPress site to create their own local blog that resembled Gothamist's appearance at the time. It also modernized some features for accessibility, performance, and made user experience improvements.
+🗽 The city culture blog Gothamist was shut down after it was sold in 2017. This motivated me to build [Gothamish](https://github.com/ian-pvd/gothamish){:target="_blank"}, a WordPress theme about New York. The theme is configured as a framework that would allow anyone to create their own local blog that resembled Gothamist's appearance at the time. It also modernized some features for accessibility, performance, and made user experience improvements.
 
 [![Color Extract app screenshots.](/assets/images/color-extract.png)](https://github.com/ian-pvd/color-extract){:target="_blank"}{:class="portfolio-link"}
 
