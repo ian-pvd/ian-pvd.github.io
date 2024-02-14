@@ -36,7 +36,7 @@ avatar_url: 'https://github.com/ian-pvd.png' # avatar url, default: /assets/imag
 description: >
   Brooklyn-based full stack web developer, building websites and applications for big media clients with WordPress, React & NextJS.
 about: >
-  I'm a full-stack WordPress and JavaScript web developer based in Brooklyn. I hike the Catskills, collect music, wander around NYC, and build lots of neat stuff with code.
+  I'm a full-stack WordPress and JavaScript web developer based in Brooklyn. I hike the Catskills, collect music, wander around NYC, and build neat stuff with code.
 logo: >
   /apple-touch-icon.png
 
@@ -60,6 +60,7 @@ utilities_nav:
 
 # Social media links
 social_links:
+ - { platform: bsky,          user_url: "https://bsky.app/profile/ian-pvd.bsky.social" }
 #  - { platform: dribbble,      user_url: "https://dribbble.com/deep-forest" }
 #  - { platform: facebook,      user_url: "https://www.facebook.com/deep-forest" }
 #  - { platform: flickr,        user_url: "https://www.flickr.com/photos/deep-forest" }
