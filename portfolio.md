@@ -8,7 +8,7 @@ Over the past 15 years I've delivered websites and single page applications for 
 
 ## My Projects
 
-My GitHub has a collection of code projects I've created to help organize things I'm interested in, show off a proof of concept, or simplify development on other projects. Here's a short list of repositories to check out.
+My GitHub has a collection of code projects I've created to help organize things I'm interested in, show off a proof of concept, or speed up development on other projects. Here's a short list of three portfolio projects.
 
 [![Deep Forest project title card.](/assets/images/deep-forest.png)](https://github.com/ian-pvd/deep-forest){:target="_blank"}{:class="portfolio-link"}
 
